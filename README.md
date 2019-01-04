@@ -1,7 +1,20 @@
 # BMI Calculator
 
-https://mass-index.firebaseapp.com/
+Calculates BMI according:  https://en.wikipedia.org/wiki/Body_mass_index
 
+Live at: https://mass-index.firebaseapp.com/
+         
+## Requirements
+
+- vue-cli 3
+
+```
+npm install -g @vue/cli
+# OR
+yarn global add @vue/cli
+```
+
+- firebase account (Authentication / https://firebase.google.com/docs/auth)
 
 ## Project setup
 ```
@@ -30,6 +43,9 @@ yarn run test:unit
 
 
 ### Deploy
+
+Deployed to firebase (https://firebase.google.com/docs/hosting/)
+
 ```
  yarn build
  firebase login
